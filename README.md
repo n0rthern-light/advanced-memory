@@ -1,11 +1,10 @@
 # Advanced Memory program
-Program made from passion to Windows internals.
+A GNU makefile project.
 
 ## Quick design overview
 The program is designed from two components an Loader and an DLL. The loader source code is placed in `src/loader` subdirectory, where the DLL code is inside `src/dll`. Both the loader and the dll share same code from `src/shared` directory.
 
 ## Compiling the components
-
 All available builds are Windows PE x86 executables.
 
 | Build Type | Module | Command |
